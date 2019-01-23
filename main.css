@@ -1,0 +1,175 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body {
+    background-color: #f9fafc;
+
+}
+
+.nav {
+    
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+     
+    
+}
+
+ 
+ ul {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    margin: 0 0;
+    padding: 0 0;
+    padding-inline-start: 0px;
+    width: max-content;
+    font-size: 15px;
+    
+   
+    
+ }
+ 
+ li {
+    display: flex;
+    margin: 0px 15px;
+    padding: 0 0;
+ }
+
+
+ .button1 {
+    display: block;
+    color: #f9fafc;
+    background: #000;
+    border-radius: 500px;
+    padding: 5px 20px;
+    
+ }
+
+
+.chirpus {
+    font-weight: bold;
+    margin: 10px 0px 0px 20px;
+}
+
+
+.chirpus-h1 {
+    margin: 130px 0px 20px 30px;
+}
+
+
+.body-text {
+    margin: 0px 0px 0px 20px;
+    color: #69696a;
+}
+
+.vl {
+    position: relative;
+    border-left: 5px solid #69696a;
+    height: 100px;
+    margin: 0px 0px 0px 25px;
+    
+  }
+
+
+.container-left {
+    position: relative;
+    float: left;
+    width: 50%;
+    
+   
+
+}
+
+.container-right {
+    position: relative;
+    width: 50%;
+   float: right;
+
+  
+  
+
+}    
+
+
+
+
+
+
+.circle-pink {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border: 1px solid rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    margin: 30% 0% 10% 10%;
+    display: inline-block;
+    opacity: .9; 
+    padding: 60px;
+    
+
+}
+
+
+.circle-purple {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border: 1px solid rgba(207, 130, 213, 0.6);
+    border-radius: 80%;
+    margin: 35% 0% 0% 50%;
+    display: inline-block;
+    opacity: .8; 
+    padding: 40px;
+}
+
+.circle-tan {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border: 1px solid rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+    opacity: .9; 
+    margin: 50% 0% 0% 38%;
+    padding: 40px;
+    
+
+}
+
+
+.scroll > a {
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #f9fafc;
+    background: #000;
+    border-radius: 500px;
+    padding: 5px 20px;
+    clear: both;
+    font-size: 15px;
+}
+
+/*this is the button on the bottom of page */
+/* text you can align without a display block, but everthing else needs
+display */
+
+/* clear floats with to many overlaying divs */
