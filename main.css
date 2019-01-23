@@ -21,7 +21,7 @@ body {
     align-items: baseline;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px 40px;
      
     
 }
@@ -98,8 +98,9 @@ body {
 .container-right {
     position: relative;
     width: 50%;
-   float: right;
-   margin: 0px auto;
+    float: right;
+    
+   
 
   
   
@@ -134,7 +135,7 @@ body {
     background-color: rgba(207, 130, 213, 0.6);
     border: 1px solid rgba(207, 130, 213, 0.6);
     border-radius: 80%;
-    margin: 35% 0% 0% 50%;
+    margin: 35% 0% 0% 60%;
     display: inline-block;
     opacity: .8; 
     padding: 40px;
@@ -149,7 +150,7 @@ body {
     border-radius: 50%;
     display: inline-block;
     opacity: .9; 
-    margin: 50% 0% 0% 38%;
+    margin: 60% 0% 0% 48%;
     padding: 40px;
     
 
