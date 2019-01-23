@@ -88,6 +88,7 @@ body {
     position: relative;
     float: left;
     width: 50%;
+    margin: 0 auto;
     
    
 
@@ -97,6 +98,7 @@ body {
     position: relative;
     width: 50%;
    float: right;
+   margin: 0px auto;
 
   
   
@@ -110,8 +112,8 @@ body {
 
 .circle-pink {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-color: rgba(247, 136, 167, 0.6);
     border: 1px solid rgba(247, 136, 167, 0.6);
     border-radius: 50%;
@@ -126,8 +128,8 @@ body {
 
 .circle-purple {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: rgba(207, 130, 213, 0.6);
     border: 1px solid rgba(207, 130, 213, 0.6);
     border-radius: 80%;
@@ -139,8 +141,8 @@ body {
 
 .circle-tan {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     background-color: rgba(247, 193, 162, 0.7);
     border: 1px solid rgba(247, 193, 162, 0.7);
     border-radius: 50%;
@@ -157,13 +159,13 @@ body {
     text-align: center;
     display: block;
     position: fixed;
-    right: 0;
-    left: 0;
+    right: 450px;
+    left: 450px;
     bottom: 0;
     color: #f9fafc;
     background: #000;
     border-radius: 500px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     clear: both;
     font-size: 15px;
 }
