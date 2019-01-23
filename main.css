@@ -50,7 +50,8 @@ body {
 
 
  .button1 {
-    display: block;
+    display: inline-block;
+    text-align: center;
     color: #f9fafc;
     background: #000;
     border-radius: 500px;
@@ -164,7 +165,6 @@ body {
     background: #000;
     border-radius: 500px;
     padding: 10px 20px;
-    clear: both;
     font-size: 15px;
 }
 
