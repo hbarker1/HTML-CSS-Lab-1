@@ -21,7 +21,7 @@ body {
     align-items: baseline;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 10px;
+    padding: 0px 100px;
      
     
 }
@@ -157,10 +157,8 @@ body {
 
 .scroll > a {
     text-align: center;
-    display: block;
+    display: inline-block;
     position: fixed;
-    right: 450px;
-    left: 450px;
     bottom: 0;
     color: #f9fafc;
     background: #000;
